@@ -14,10 +14,11 @@
 
 1. 直接在瀏覽器中開啟 `index.html` 檔案
 2. 或者使用本地服務器：
+
    ```bash
    # 使用 Python 3
    python -m http.server 8000
-   
+
    # 使用 Node.js (需要安裝 http-server)
    npx http-server
    ```
@@ -25,6 +26,7 @@
 ## 功能說明
 
 ### 支出記錄 (Expense Tab)
+
 - **Date / Time**: 輸入支出日期和時間，格式為 `YYYY-MM-DD : hh[am/pm]`
 - **Now 按鈕**: 快速填入當前時間
 - **Category**: 選擇支出類別 (Food, Entertain, Travel, Utility)
@@ -34,6 +36,7 @@
 - **Record 按鈕**: 記錄支出資料
 
 ### 統計分析 (Statistics Tab)
+
 - **圓餅圖**: 顯示各類別支出的比例
 - **統計列表**: 顯示各類別的支出總額
 - **總計**: 顯示所有支出的總金額
